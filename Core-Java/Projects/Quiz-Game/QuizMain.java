@@ -9,7 +9,7 @@ public class QuizMain {
 		int userChoice;
 		QuizController quizControl=new QuizController();
 		quizControl.userData();
-		
+		quizControl.QuestionDataSet();
 		do {
 			System.out.println("Enter your choice");
 			System.out.println("1. Play the quiz");
